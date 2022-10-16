@@ -1,3 +1,7 @@
+.head {
+    height: 100vh;
+}
+
 .top {
     background: var(--rainbow);
 }
@@ -21,17 +25,8 @@
 .top__icon {
     font-size: 50px;
     animation: rotate 1s linear infinite alternate;
-    
+
 }
-
-
-
-
-
-
-
-
-
 
 
 .bottom {
@@ -95,11 +90,11 @@
 
 @keyframes rotate {
     from {
-        transform: rotateY(0deg) ;
+        transform: rotateY(0deg);
     }
 
     to {
-        transform: rotateY(360deg) ;
+        transform: rotateY(360deg);
     }
 
 }
