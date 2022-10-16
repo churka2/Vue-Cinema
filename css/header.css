@@ -1,0 +1,29 @@
+.top{
+    background: var(--rainbow);
+}
+.top__wrap{
+    padding: 20px 0;
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+}
+
+.top__txt{
+    font-family: var(--comf);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    max-width: 166px;
+}
+
+.top__icon{
+    font-size: 50px;
+}
+
+
+
+
+
+
+
