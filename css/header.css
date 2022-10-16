@@ -20,7 +20,13 @@
 
 .top__icon {
     font-size: 50px;
+    animation: rotate 1s linear infinite alternate;
+    
 }
+
+
+
+
 
 
 
@@ -83,4 +89,17 @@
 
 .bottom__link:hover.bottom__link::after {
     width: 100%;
+}
+
+
+
+@keyframes rotate {
+    from {
+        transform: rotateY(0deg) ;
+    }
+
+    to {
+        transform: rotateY(360deg) ;
+    }
+
 }
