@@ -1,13 +1,11 @@
-.head {
-    height: 100vh;
-}
+
 
 .top {
     background: var(--rainbow);
 }
 
 .top__wrap {
-    padding: 20px 0;
+    padding: 20px 15px;
     display: flex;
     gap: 24px;
     justify-content: center;
@@ -37,7 +35,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 29px 0;
+    padding: 29px 15px;
 }
 
 .logo__txt {

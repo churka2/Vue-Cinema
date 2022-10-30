@@ -1,5 +1,5 @@
 .films__wrap {
-    padding: 60px 0;
+    padding: 60px 15px;
 }
 
 .heading {
@@ -74,19 +74,19 @@
 }
 
 .card:nth-child(1) {
-    background: url(../img/blackpanther.png) no-repeat center/cover;
+    background: url(../img/blackpanther.png) no-repeat center top/cover;
 }
 
 .card:nth-child(2) {
-        background: url(../img/the\ dark\ night.png) no-repeat center/cover;
+        background: url(../img/the\ dark\ night.png) no-repeat center top/cover;
 }
 
 .card:nth-child(3) {
-        background: url(../img/thegentlemen.png) no-repeat center/cover;
+        background: url(../img/thegentlemen.png) no-repeat center top/cover;
 }
 
 .card:nth-child(4) {
-        background: url(../img/lordofring.png) no-repeat center/cover;
+        background: url(../img/lordofring.png) no-repeat center top/cover;
 }
 
 .card__bg{
@@ -104,3 +104,28 @@
     transform: scale(1.09);
 }
 
+@media screen and (max-width:1146px) {
+    .films__cards {
+        flex-wrap: wrap;
+    }
+    
+    .card{
+        flex-basis: 33%;
+    }
+}
+
+@media screen and (max-width:768px){
+    .card:hover{
+        transform: scale(1);
+    }
+}
+
+@media screen and (max-width:662px){
+    .films__cards {
+        flex-direction: column;
+        align-items: center;
+    }
+    .card {
+        max-width: 400px;
+    }
+}
