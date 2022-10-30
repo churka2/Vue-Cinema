@@ -1,8 +1,9 @@
 .banner {
-    background: url(../img/bannerback.png) no-repeat center/cover;
+    background: url(../img/bannerback.png) no-repeat center right/cover;
     height: 80%;
     position: relative;
     z-index: 10;
+    
 }
 
 .banner__abs {
@@ -28,8 +29,7 @@
     font-size: 64px;
     font-weight: 700;
     line-height: 78px;
-    text-align: left;
-
+    text-align: center;
 }
 
 .banner__txt {
@@ -64,7 +64,39 @@
 }
 
 .btn:hover {
-    
+
     color: black;
     background: var(--orange);
+}
+
+@media screen and (max-width:630px) {
+    .banner__wrap {
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .banner__h1 {
+        font-size: 54px;
+        line-height: 68px;
+    }
+}
+
+@media screen and (max-width:384px) {
+    .banner__txt {
+        font-size: 13px;
+        line-height: 18px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    .banner__h1 {
+        font-size: 37px;
+        line-height: 58px;
+    }
+
+    .banner__btns {
+        flex-direction: column;
+        gap: 10px;
+    }
 }
