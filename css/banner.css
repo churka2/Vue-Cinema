@@ -49,13 +49,13 @@
     gap: 30px;
 }
 
-.banner__btn {
+.btn {
     font-family: var(--Rob);
     font-size: 14px;
     font-weight: 500;
     line-height: 12px;
     text-align: justify;
-    background: #040D1F;
+    background: var(--bg);
     color: #fff;
     padding: 16px 47px;
     border-radius: 4px;
@@ -63,8 +63,8 @@
     transition: 0.25s;
 }
 
-.banner__btn:hover {
-    transform: scale(1.05);
+.btn:hover {
+    
     color: black;
     background: var(--orange);
 }
