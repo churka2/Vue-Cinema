@@ -1,0 +1,106 @@
+.films__wrap {
+    padding: 60px 0;
+}
+
+.heading {
+    font-family: var(--comf);
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 40px;
+    color: var(--orange);
+    border-bottom: 2px solid var(--orange);
+    padding-bottom: 4px;
+    width: 98px;
+    margin-bottom: 55px;
+}
+
+.title {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.films__cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 6px;
+    padding: 54px 14px 14px;
+    z-index: 10;
+    height:367px;
+    position: relative;
+    transition: 0.25s;
+}
+
+.card__icon{
+    font-size: 40px;
+}
+
+.card__time {
+    margin-top: 12px;
+    margin-bottom: 30px;
+    font-family: var(--Mon);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 10px;
+    padding: 7px 27px;
+    border: 1px solid #FFFFFF;
+    border-radius: 9px;
+}
+
+.card__h3 {
+    font-family: var(--Mon);
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.card__info {
+    font-family: var(--Rob);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+}
+
+.card:nth-child(1) {
+    background: url(../img/blackpanther.png) no-repeat center/cover;
+}
+
+.card:nth-child(2) {
+        background: url(../img/the\ dark\ night.png) no-repeat center/cover;
+}
+
+.card:nth-child(3) {
+        background: url(../img/thegentlemen.png) no-repeat center/cover;
+}
+
+.card:nth-child(4) {
+        background: url(../img/lordofring.png) no-repeat center/cover;
+}
+
+.card__bg{
+    background: linear-gradient(180deg, rgba(241, 129, 40, 0.35) 0%, rgba(0, 0, 0, 0.71) 51.04%, rgba(7, 15, 25, 0.8) 100%);
+    border-radius: 6px;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.card:hover{
+    transform: scale(1.09);
+}
+
