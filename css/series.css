@@ -1,0 +1,116 @@
+.series{
+    padding-bottom: 63px;
+}
+.series__top {
+    background: url(../img/thrones.png) no-repeat center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 28px;
+    padding: 96px 22px;
+    border-radius: 6px;
+    position: relative;
+    z-index: 10;
+    margin-bottom: 30px;
+}
+
+.series__bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: linear-gradient(95.68deg, rgba(35, 35, 35, 0.8) 10.86%, rgba(11, 11, 11, 0.6) 110.86%);
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+    z-index: -1;
+}
+
+.thrones__h2 {
+    font-family: var(--comf);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 45px;
+    color: white
+}
+
+.thrones__info {
+    font-family: var(--comf);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: white
+}
+
+.series__info {
+    font-family: var(--comf);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 27px;
+    color: white
+}
+
+.series__down {
+    display: flex;
+    justify-content: space-between
+}
+
+.icon {
+    font-size: 40px
+}
+
+.wanda {
+    background: url(../img/wanda.png) no-repeat center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 164px 186px;
+    position: relative;
+    z-index: 10;
+    max-height: 552px;
+    height: 100%;
+    border-radius: 6px;
+}
+
+
+.serie {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    z-index: 10;
+    max-height: 190px;
+    max-width: 255px;
+    height: 100%;
+    width: 100%;
+    border-radius: 6px;
+    transition: 0.25s
+}
+
+.serie:hover{
+    transform: scale(1.1)
+}
+
+.series__right {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.serie1{
+    background: url(../img/flash.png) no-repeat center/cover;
+}
+
+.serie2{
+    background: url(../img/great.png) no-repeat center/cover;
+}
+.serie3{
+    background: url(../img/gotham.png) no-repeat center/cover;
+}
+.serie4{
+    background: url(../img/witcher.png) no-repeat center/cover;
+}
