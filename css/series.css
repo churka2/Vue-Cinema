@@ -1,6 +1,7 @@
-.series{
+.series {
     padding-bottom: 63px;
 }
+
 .series__top {
     background: url(../img/thrones.png) no-repeat center/cover;
     display: flex;
@@ -52,7 +53,8 @@
 
 .series__down {
     display: flex;
-    justify-content: space-between
+    justify-content: space-between;
+    flex-wrap: wrap
 }
 
 .icon {
@@ -89,7 +91,7 @@
     transition: 0.25s
 }
 
-.serie:hover{
+.serie:hover {
     transform: scale(1.1)
 }
 
@@ -101,16 +103,68 @@
     gap: 15px;
 }
 
-.serie1{
+.serie1 {
     background: url(../img/flash.png) no-repeat center/cover;
 }
 
-.serie2{
+.serie2 {
     background: url(../img/great.png) no-repeat center/cover;
 }
-.serie3{
+
+.serie3 {
     background: url(../img/gotham.png) no-repeat center/cover;
 }
-.serie4{
+
+.serie4 {
     background: url(../img/witcher.png) no-repeat center/cover;
+}
+
+
+
+@media screen and (max-width:1124px) {
+    .series__down {
+        gap: 30px;
+        justify-content: center;
+
+    }
+
+    .wanda {
+        flex-basis: 70%
+    }
+
+    .series__right {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        width: 100%;
+        height: 255px;
+    }
+}
+
+@media screen and (max-width:493px) {
+    .wanda {
+        padding:80px 150px ;
+        height: 190px;
+        width: 255px;
+        flex-basis:0%;
+        max-height: 190px;
+        
+    }
+    
+    .series__down{
+        width: 100%;
+        
+    }
+
+    .series__top {
+        background: url(../img/thrones.png) no-repeat cover
+    }
+    
+    .thrones__info{
+        font-size: 0;
+    }
+    .series__top{
+        text-align: center
+    }
 }

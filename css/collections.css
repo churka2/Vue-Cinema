@@ -79,3 +79,13 @@
 .collect__card:hover .collect__icon {
     transform: rotateX(360deg);
 }
+
+@media screen and (max-width:1174px){
+    .collections__wrap{
+        flex-direction: column;
+    }
+    .collect__card{
+        max-width:600px;
+        width: 100%;
+    }
+}
