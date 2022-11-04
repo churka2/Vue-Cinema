@@ -54,7 +54,6 @@
 .series__down {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap
 }
 
 .icon {
@@ -73,6 +72,7 @@
     max-height: 552px;
     height: 100%;
     border-radius: 6px;
+    text-align: center
 }
 
 
@@ -125,20 +125,21 @@
     .series__down {
         gap: 30px;
         justify-content: center;
-
+        flex-direction: column;
+        align-items:center
     }
 
     .wanda {
         flex-basis: 70%
     }
-
+    
+    .serie{
+        height: 255px;
+    }
     .series__right {
         display: flex;
         align-items: center;
         justify-content: center;
-        flex-direction: row;
-        width: 100%;
-        height: 255px;
     }
 }
 
